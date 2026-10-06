@@ -1,0 +1,56 @@
+
+Exception Handling :
+       |
+       +-- try
+       |
+       +-- catch
+       |
+       +-- finally
+       |
+       +-- throw
+       |
+       +-- throws
+     
+----------------------------------------------------------------------------------------------------------------------------------------  
+       
+Common Exceptions :
+------------------
+ArithmeticException
+        ↓
+10 / 0
+
+ArrayIndexOutOfBoundsException
+        ↓
+Invalid array index
+
+NumberFormatException
+        ↓
+Integer.parseInt("ABC")
+
+NullPointerException
+        ↓
+Using a null reference
+
+---------------------------------------------------------------------------------------------------------------------------------------- 
+
+throw
+    ↓
+Used to actually throw an exception
+
+throws
+    ↓
+Used in method declaration to indicate
+that the method may throw an exception
+
+
+The Rules of throws Propagation
+-------------------------------
+• Checked Exceptions: 
+Java forces you to use the throws keyword if you want a checked exception (like IOException) to propagate. 
+If you don't declare it or catch it, the code won't compile.
+
+• Unchecked Exceptions: 
+Unchecked exceptions (like NullPointerException or ArithmeticException) 
+propagate automatically up the call stack without needing the throws keyword at all.
+
+----------------------------------------------------------------------------------------------------------------------------------------  

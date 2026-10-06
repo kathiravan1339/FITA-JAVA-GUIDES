@@ -1,0 +1,12 @@
+Abstraction
+     ↓
+"What should this object do?"
+     ↓
+Abstract class / Interface
+
+
+Polymorphism
+     ↓
+"How can the same operation behave differently?"
+     ↓
+Overloading / Overriding

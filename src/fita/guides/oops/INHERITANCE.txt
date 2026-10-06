@@ -1,0 +1,43 @@
+1. Singlelevel
+
+    A
+    |
+    B
+
+
+2. Multilevel
+
+    A
+    |
+    B
+    |
+    C
+
+
+3. Hierarchical
+
+       A
+     /   \
+    B     C
+
+
+4. Multiple
+
+   A       B
+    \     /
+      C
+
+   → Not supported with classes
+   → Supported using interfaces
+
+
+5. Hybrid
+
+       A
+       |
+       B
+      / \
+     C   D
+
+   → Combination of inheritance types
+   → Achieved using classes + interfaces
